@@ -1,6 +1,8 @@
 body {
   background: radial-gradient(circle, #adc782 0%, #617543 50%, #202714);
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  padding: 0px;
+  margin: 0px
 }
 #container {
   height: 98vh;
@@ -142,4 +144,23 @@ body {
   width: 8px;
   height: 8px;
   margin: 3px;
+}
+
+
+footer{
+   background-color: #040404;
+   color: #fff;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 5px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   min-height: 2vh;
+   background-color: #1d2513;   
+   border-top: 1px solid #5f743f;
 }
